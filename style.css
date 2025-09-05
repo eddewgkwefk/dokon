@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.89px;
+    color: white;
+}
+
+header {
+    background-color: #000000;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 19px 0;
+}
+
+.hero-text h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+
+    color: white;
+}
+
+.btn {
+    padding: 18px 20px;
+    margin-top: 89px;
+    background: #76B900;
+
+}
+.s{
+    background-image: url(./img/slider2\ 2\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-text{
+padding: 30px 20px;
+
+}
+.box{
+    width: 290px;
+
+}
+.card-box h2{
+    
+        font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+line-height: 58.09px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: black;
+    text-align: center;
+}
+.box h2{
+    font-family: Inter;
+font-size: 18px;
+font-weight: 700;
+line-height: 21.78px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+text-align: center;
+}
+.box{
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+}
+.card-box{
+    background-color:wheat ;
+ 
+}
+.card-box .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+h3{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 21.78px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    width: 100%;
+}
+.text h2{
+font-size: 48px;
+font-weight: 700;
+line-height: 58.09px;
+color: #67B900;
+}
+.text p{
+font-size: 18px;
+font-weight: 700;
+line-height: 21.78px;
+margin-top: 28px;
+}
+.info .container{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 40px;
+    background-color: white;
+}
+.btn-end{
+    width: 233px;
+    height: 62px;
+    background-color: #76B900;
+    margin-top: 58px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+padding: 109px 24px 80px;
+}
+footer p{
+font-size: 18px;
+font-weight: 800;
+line-height: 21.78px;
+color: #666666;
+}
+.info{
+    background-color: wheat;
+}
