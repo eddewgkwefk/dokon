@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <title>Savol–Javob</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #000; /* ORQA FON QORA */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .box {
+      background: #fff; /* DIV OQ */
+      padding: 30px;
+      border-radius: 12px;
+      width: 90%;
+      max-width: 500px;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(255,255,255,0.2);
+    }
+
+    h1 {
+      color: #000;
+      margin-bottom: 20px;
+    }
+
+    button {
+      padding: 12px 22px;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin: 10px;
+      background: #000;   /* TUGMA QORA */
+      color: #fff;        /* YOZUV OQ */
+    }
+
+    button:hover {
+      background: #333;
+    }
+
+    #question {
+      margin-top: 20px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #000;
+    }
+
+    #answer {
+      margin-top: 15px;
+      font-size: 18px;
+      color: #111;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <h1>😂 Savol – Javob</h1>
+
+    <button id="questionBtn">Savol olish</button>
+    <button id="answerBtn">Javobi</button>
+
+    <div id="question">Savol shu yerda chiqadi</div>
+    <div id="answer">Javob shu yerda chiqadi</div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
